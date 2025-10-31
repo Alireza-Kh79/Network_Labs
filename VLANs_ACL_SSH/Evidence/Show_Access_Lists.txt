@@ -1,5 +1,0 @@
-access-list 1 permit host 192.168.10.5
-ip access-list extended To_SRV
- deny tcp 192.168.10.0 0.0.0.255 host 192.168.20.10 eq www
- deny tcp 192.168.10.0 0.0.0.255 host 192.168.20.10 eq 443
- permit ip any any
